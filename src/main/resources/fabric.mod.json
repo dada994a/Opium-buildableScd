@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "opium",
+  "version": "${version}",
+  "name": "Opium",
+  "description": "",
+  "authors": [
+    "heedii"
+  ],
+  "contact": {
+    "repo": "https://github.com/cattyngmd/oyvey-portedvey-ported"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "accessWidener": "opium.accesswidener",
+  "entrypoints": {
+    "client": [
+      "we.devs.opium.Opium"
+    ],
+    "main": [
+      "we.devs.opium.Opium"
+    ]
+  },
+  "mixins": [
+    "opium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
