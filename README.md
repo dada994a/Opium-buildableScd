@@ -1,2 +1,3 @@
 # Opium-buildableScd
-From 12/25/2024
+It was given to me by a friend on 12/25/2024.
+I don't know about the details.
